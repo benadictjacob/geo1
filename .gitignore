@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.env
+
+# Generated research data (re-creatable with the tools); keep only the summary
+GEO-Research/*
+!GEO-Research/GEO-System.md
